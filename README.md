@@ -2,11 +2,15 @@
 
 ## Sobre
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criação de arquivos/funções helpers para um projeto Javascript em Sails.js.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arquivos/funções helpers para um projeto Javascript em Sails.js. Essas funções helpers devem simular o tratamento de dados, para uma plataforma VTM, de um projeto em grupo com a Parceiros Voltuntários. 
+
+## Objetivo
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar arquivos helpers para um projeto Sails.js que façam o tratamento de dados básicos de cadastro de usuários.
 
 ## Helpers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers".
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers". As funções funções assíncronas dos helpers fazem a verificação dos caracteres de inputs pelo usuário, que se estiverem corretas são enviadas para a base de dados, caso contrário não são enviadas.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
 - formatemail
