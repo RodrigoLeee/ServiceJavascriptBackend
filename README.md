@@ -1,12 +1,21 @@
-# Sobre
+# Modelagem de Banco de Dados
 
-Projeto Sails.js 
+## Sobre
 
-## Pré-requisitos
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criação de arquivos/funções helpers para um projeto Javascript em Sails.js.
+
+## Helpers
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers:.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
+<ul>
+  <li>formatemail</li>
+  <li>formatname</li>
+</ul>
+
+## Como Usar/Pré-requisitos
 
 - Node.js e npm instalados.
-
-## Como Usar
 
 1. **Clone o Repositório:**
 
