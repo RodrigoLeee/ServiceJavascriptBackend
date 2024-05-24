@@ -6,7 +6,7 @@
 
 ## Objetivo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar arquivos helpers para um projeto Sails.js que façam o tratamento de dados básicos de cadastro de usuários.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar arquivos helpers, para um projeto utilizando o framework Sails.js, que façam o tratamento de dados básicos de cadastro de usuários.
 
 ## Helpers
 
