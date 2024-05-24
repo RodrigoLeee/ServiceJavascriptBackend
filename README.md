@@ -10,7 +10,7 @@
 
 ## Helpers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers". As funções funções assíncronas dos helpers fazem a verificação dos caracteres de inputs pelo usuário, que se estiverem corretas são enviadas para a base de dados, caso contrário não são enviadas.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados na pasta: "api/helpers". As funções assíncronas dos helpers fazem a verificação dos caracteres de inputs pelo usuário, que se condizentes, são enviadas para a base de dados, caso contrário não são enviadas.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
 - formatemail
