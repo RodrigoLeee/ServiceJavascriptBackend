@@ -8,10 +8,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers:.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
-<ul>
-  <li>formatemail</li>
-  <li>formatname</li>
-</ul>
+- formatemail
+- formatname
 
 ## Como Usar/Pré-requisitos
 
