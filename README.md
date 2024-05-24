@@ -6,7 +6,8 @@
 
 ## Helpers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers:.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados nas pastas: "api/helpers".
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
 - formatemail
 - formatname
