@@ -11,7 +11,7 @@ Projeto Sails.js
 1. **Clone o Repositório:**
 
    ```bash
-   git clone 
+   git clone https://github.com/RodrigoLeee/ServiceJavascriptBackend.git
    cd ServiceJavascriptBackend
    ```
 
