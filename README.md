@@ -1,5 +1,4 @@
-# Modelagem de Banco de Dados
-
+# Criação de um Service em Javascript para o Backend
 ## Sobre
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arquivos/funções helpers para um projeto Javascript em Sails.js. Essas funções helpers devem simular o tratamento de dados, para uma plataforma VTM, de um projeto em grupo com a Parceiros Voltuntários. 
@@ -13,8 +12,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os arquivos helpers podem ser encontrados na pasta: "api/helpers". As funções assíncronas dos helpers fazem a verificação dos caracteres de inputs pelo usuário, que se condizentes, são enviadas para a base de dados, caso contrário não são enviadas.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
-- formatemail
-- formatname
+- formatemail.js
+- formatname.js
 
 ## Como Usar/Pré-requisitos
 
