@@ -5,7 +5,7 @@ module.exports = {
 
   description: 'Performs data treatment on a name.',
 
-  inputs: {
+  inputs: { //Recebe input, chamada name
     name: {
       type: 'string',
       required: true,
@@ -13,7 +13,7 @@ module.exports = {
     },
   },
 
-  exits: {
+  exits: { //duas saidas, sucesso e nome invalido
     success: {
       description: 'All done.',
     },
@@ -23,25 +23,29 @@ module.exports = {
   },
 
   fn: async function (inputs, exits) {
-    const name = inputs.name.trim();
+    const name = inputs.name.trim(); //Remove espaços em branco no inicio e no final da string
 
-    // Validation: Ensure name meets length requirements
+    // Verifica se nome possui de 1 a 50 caracteres
     if (name.length < 1 || name.length > 50) {
       return exits.invalidName('Nome precisa ser entre 1 a 50 caracteres.');
     }
 
-    // Validation: Allow only permissible characters (letters, hyphens, apostrophes, spaces)
+    // Testa nome utilizando regex
+    // Regex é uma sequência de caracteres que forma um padrão de pesquisa.
+    // Regular expression
+    // Depois aplica o regex para testar se o nome contem apenas letras, espaço, hifen e apóstrofo
+    // Se regex não for TRUE, retorna erro
     const nameRegex = /^[a-zA-Z\s\-']+$/;
     if (!nameRegex.test(name)) {
       return exits.invalidName('Nome contem caracteres não permitido.');
     }
 
-    // Normalization: Capitalize the first letter of each word
+    // Coloca em letra maiuscula a primeira letra de cada palavra
     const processedName = name.split(' ').map(word => {
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     }).join(' ');
 
-    // Return the processed name
+    // Retorna o nome processado
     return exits.success(processedName);
   }
 };
