@@ -6,19 +6,19 @@ module.exports = {
 
   inputs: {
     email: {
-      type: 'string',
-      required: true,
-      description: 'The email address to format'
+      type: 'string', //tipo, string
+      required: true, //obrigatorio
+      description: 'The email address to format' //Recebe input do email a ser formatado
     },
   },
 
 
-  exits: {
+  exits: { //Saidas no console de acordo com o resultado
     success: {
-      description: 'Sucesso.'
+      description: 'Sucesso.' //Sucesso em formatar e-mail
     },
-    invalidEmail: {
-      description: 'O e-mail não é valido.'
+    invalidEmail: { 
+      description: 'O e-mail não é valido.' //Falha em formatar e-mail
     }
   },
 
