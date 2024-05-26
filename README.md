@@ -14,6 +14,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers criados:
 - formatemail.js
 - formatname.js
+- formatestadojs
 
 ## Como Usar/Pré-requisitos
 
