@@ -23,10 +23,15 @@
       <label for="senha">Senha:</label>
       <input type="text" id="senha" name="senha" required>
     </div>
-  <!-- Emila -->
+  <!-- Email -->
     <div>
       <label for="email">Email:</label>
       <input type="text" id="email" name="email" required>
+    </div>
+  <!-- Estado -->
+    <div>
+      <label for="estado">Estado(Sigla):</label>
+      <input type="text" id="estado" name="estado" required>
     </div>
   <!-- Botão para criar -->
     <button type="submit">Cadastrar</button>
@@ -47,7 +52,7 @@
         const listaHtml = users.map(function (user) {
           return `
               <div>
-                <strong>ID:</strong> ${user.id} - <strong>Nome:</strong> ${user.nome} - <strong>Senha:</strong> ${user.senha} - <strong>Email:</strong> ${user.email}
+                <strong>ID:</strong> ${user.id} - <strong>Nome:</strong> ${user.nome} - <strong>Senha:</strong> ${user.senha} - <strong>Email:</strong> ${user.email} - <strong>Estado:</strong> ${user.estado}
                 <button type="button" onclick="excluirUser('${user.id}')">Excluir</button>
               </div>
             `;
@@ -70,8 +75,9 @@
     const nome = document.getElementById('nome').value;
     const senha = document.getElementById('senha').value;
     const email = document.getElementById('email').value;
+    const estado = document.getElementById('estado').value;
 
-    axios.post('/user', { nome, senha, email })
+    axios.post('/user', { nome, senha, email, estado })
       .then(function () {
         // Atualizar a lista de users após a criação
         carregarListaUsers();
@@ -79,6 +85,7 @@
         document.getElementById('nome').value = '';
         document.getElementById('senha').value = '';
         document.getElementById('email').value = '';
+        document.getElementById('estado').value = '';
       })
       .catch(function (error) {
         console.error('Erro ao criar user:', error);

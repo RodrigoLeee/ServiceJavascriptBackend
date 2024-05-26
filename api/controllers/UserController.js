@@ -27,6 +27,7 @@ module.exports = {
       const user = await User.create({
         nome: await sails.helpers.formatname(req.body.nome),
         email: await sails.helpers.formatemail(req.body.email),
+        estado: await sails.helpers.formatestado(req.body.estado),
         senha: req.body.senha,
       });
       return res.status(201).json(user); // Retornar 201 Created

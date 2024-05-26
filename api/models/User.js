@@ -20,6 +20,10 @@ module.exports = {
       type: 'string',
       required: true,
     },
+    estado: {
+      type: 'string',
+      required: true,
+    },
   },
 
 };
