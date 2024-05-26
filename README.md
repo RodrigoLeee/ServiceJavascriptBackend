@@ -5,7 +5,7 @@
 
 ## Objetivo
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar arquivos helpers, para um projeto utilizando o framework Sails.js, que façam o tratamento de dados básicos de cadastro de usuários. O tratamento de dados deve ser feito por funções assíncronas dentro de arquivos helpers (.js). Cada arquivo helpers deve receber um input, que é processado pela função, que retorna um output. Essse arquivos helpers devem poder serem testados a partir de uma interface views/HTML (.ejs) simples.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Criar arquivos helpers, para um projeto utilizando o framework Sails.js, que façam o tratamento de dados básicos de cadastro de usuários. O tratamento de dados deve ser feito por funções assíncronas dentro de arquivos helpers (.js). Cada arquivo helpers deve receber um input, que é processado pela função, que retorna um output. Essse arquivos helpers podem ser testados a partir de uma interface views/HTML (.ejs) simples.
 
 ## Helpers
 
